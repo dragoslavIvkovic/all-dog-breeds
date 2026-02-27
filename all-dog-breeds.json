@@ -1,79 +1,1438 @@
 {
   "dogs": [
-    { "id": "d1", "name": "Affenpinscher", "min_weight_kg": 3.0, "max_weight_kg": 4.5 },
-    { "id": "d2", "name": "Afghan Hound", "min_weight_kg": 23.0, "max_weight_kg": 27.0 },
-    { "id": "d3", "name": "Airedale Terrier", "min_weight_kg": 23.0, "max_weight_kg": 32.0 },
-    { "id": "d4", "name": "Akita", "min_weight_kg": 32.0, "max_weight_kg": 59.0 },
-    { "id": "d5", "name": "Alaskan Malamute", "min_weight_kg": 34.0, "max_weight_kg": 39.0 },
-    { "id": "d6", "name": "American Bulldog", "min_weight_kg": 27.0, "max_weight_kg": 45.0 },
-    { "id": "d7", "name": "American Staffordshire Terrier", "min_weight_kg": 18.0, "max_weight_kg": 32.0 },
-    { "id": "d8", "name": "Australian Cattle Dog", "min_weight_kg": 15.0, "max_weight_kg": 22.0 },
-    { "id": "d9", "name": "Australian Shepherd", "min_weight_kg": 18.0, "max_weight_kg": 29.0 },
-    { "id": "d10", "name": "Basset Hound", "min_weight_kg": 18.0, "max_weight_kg": 29.0 },
-    { "id": "d11", "name": "Beagle", "min_weight_kg": 9.0, "max_weight_kg": 14.0 },
-    { "id": "d12", "name": "Belgian Malinois", "min_weight_kg": 18.0, "max_weight_kg": 36.0 },
-    { "id": "d13", "name": "Bernese Mountain Dog", "min_weight_kg": 32.0, "max_weight_kg": 52.0 },
-    { "id": "d14", "name": "Bichon Frise", "min_weight_kg": 5.0, "max_weight_kg": 8.0 },
-    { "id": "d15", "name": "Bloodhound", "min_weight_kg": 36.0, "max_weight_kg": 50.0 },
-    { "id": "d16", "name": "Border Collie", "min_weight_kg": 14.0, "max_weight_kg": 20.0 },
-    { "id": "d17", "name": "Border Terrier", "min_weight_kg": 5.0, "max_weight_kg": 7.0 },
-    { "id": "d18", "name": "Boston Terrier", "min_weight_kg": 5.0, "max_weight_kg": 11.0 },
-    { "id": "d19", "name": "Boxer", "min_weight_kg": 25.0, "max_weight_kg": 36.0 },
-    { "id": "d20", "name": "Bull Terrier", "min_weight_kg": 22.0, "max_weight_kg": 32.0 },
-    { "id": "d21", "name": "Bulldog", "min_weight_kg": 18.0, "max_weight_kg": 23.0 },
-    { "id": "d22", "name": "Bullmastiff", "min_weight_kg": 45.0, "max_weight_kg": 59.0 },
-    { "id": "d23", "name": "Cairn Terrier", "min_weight_kg": 6.0, "max_weight_kg": 8.0 },
-    { "id": "d24", "name": "Cane Corso", "min_weight_kg": 40.0, "max_weight_kg": 50.0 },
-    { "id": "d25", "name": "Cavalier King Charles Spaniel", "min_weight_kg": 6.0, "max_weight_kg": 8.0 },
-    { "id": "d26", "name": "Chihuahua", "min_weight_kg": 1.5, "max_weight_kg": 3.0 },
-    { "id": "d27", "name": "Chow Chow", "min_weight_kg": 20.0, "max_weight_kg": 32.0 },
-    { "id": "d28", "name": "Cocker Spaniel", "min_weight_kg": 11.0, "max_weight_kg": 14.0 },
-    { "id": "d29", "name": "Collie", "min_weight_kg": 23.0, "max_weight_kg": 34.0 },
-    { "id": "d30", "name": "Dachshund (Standard)", "min_weight_kg": 7.0, "max_weight_kg": 14.0 },
-    { "id": "d31", "name": "Dachshund (Miniature)", "min_weight_kg": 3.5, "max_weight_kg": 5.0 },
-    { "id": "d32", "name": "Dalmatian", "min_weight_kg": 20.0, "max_weight_kg": 32.0 },
-    { "id": "d33", "name": "Doberman Pinscher", "min_weight_kg": 27.0, "max_weight_kg": 45.0 },
-    { "id": "d34", "name": "English Mastiff", "min_weight_kg": 54.0, "max_weight_kg": 100.0 },
-    { "id": "d35", "name": "English Springer Spaniel", "min_weight_kg": 18.0, "max_weight_kg": 23.0 },
-    { "id": "d36", "name": "French Bulldog", "min_weight_kg": 8.0, "max_weight_kg": 13.0 },
-    { "id": "d37", "name": "German Shepherd", "min_weight_kg": 22.0, "max_weight_kg": 40.0 },
-    { "id": "d38", "name": "German Shorthaired Pointer", "min_weight_kg": 20.0, "max_weight_kg": 32.0 },
-    { "id": "d39", "name": "Giant Schnauzer", "min_weight_kg": 27.0, "max_weight_kg": 43.0 },
-    { "id": "d40", "name": "Golden Retriever", "min_weight_kg": 25.0, "max_weight_kg": 34.0 },
-    { "id": "d41", "name": "Great Dane", "min_weight_kg": 50.0, "max_weight_kg": 80.0 },
-    { "id": "d42", "name": "Great Pyrenees", "min_weight_kg": 39.0, "max_weight_kg": 52.0 },
-    { "id": "d43", "name": "Greyhound", "min_weight_kg": 27.0, "max_weight_kg": 32.0 },
-    { "id": "d44", "name": "Havanese", "min_weight_kg": 3.0, "max_weight_kg": 6.0 },
-    { "id": "d45", "name": "Irish Setter", "min_weight_kg": 27.0, "max_weight_kg": 32.0 },
-    { "id": "d46", "name": "Irish Wolfhound", "min_weight_kg": 48.0, "max_weight_kg": 54.0 },
-    { "id": "d47", "name": "Jack Russell Terrier", "min_weight_kg": 6.0, "max_weight_kg": 8.0 },
-    { "id": "d48", "name": "Labrador Retriever", "min_weight_kg": 25.0, "max_weight_kg": 36.0 },
-    { "id": "d49", "name": "Lhasa Apso", "min_weight_kg": 5.0, "max_weight_kg": 8.0 },
-    { "id": "d50", "name": "Maltese", "min_weight_kg": 3.0, "max_weight_kg": 4.0 },
-    { "id": "d51", "name": "Miniature Pinscher", "min_weight_kg": 3.5, "max_weight_kg": 5.0 },
-    { "id": "d52", "name": "Miniature Schnauzer", "min_weight_kg": 5.0, "max_weight_kg": 9.0 },
-    { "id": "d53", "name": "Newfoundland", "min_weight_kg": 45.0, "max_weight_kg": 68.0 },
-    { "id": "d54", "name": "Papillon", "min_weight_kg": 2.0, "max_weight_kg": 4.5 },
-    { "id": "d55", "name": "Pekingese", "min_weight_kg": 3.0, "max_weight_kg": 6.0 },
-    { "id": "d56", "name": "Pembroke Welsh Corgi", "min_weight_kg": 11.0, "max_weight_kg": 14.0 },
-    { "id": "d57", "name": "Pomeranian", "min_weight_kg": 1.5, "max_weight_kg": 3.0 },
-    { "id": "d58", "name": "Poodle (Standard)", "min_weight_kg": 20.0, "max_weight_kg": 32.0 },
-    { "id": "d59", "name": "Poodle (Miniature)", "min_weight_kg": 5.0, "max_weight_kg": 7.0 },
-    { "id": "d60", "name": "Poodle (Toy)", "min_weight_kg": 2.0, "max_weight_kg": 4.0 },
-    { "id": "d61", "name": "Pug", "min_weight_kg": 6.0, "max_weight_kg": 8.0 },
-    { "id": "d62", "name": "Rhodesian Ridgeback", "min_weight_kg": 32.0, "max_weight_kg": 39.0 },
-    { "id": "d63", "name": "Rottweiler", "min_weight_kg": 36.0, "max_weight_kg": 61.0 },
-    { "id": "d64", "name": "Saint Bernard", "min_weight_kg": 54.0, "max_weight_kg": 82.0 },
-    { "id": "d65", "name": "Samoyed", "min_weight_kg": 16.0, "max_weight_kg": 30.0 },
-    { "id": "d66", "name": "Scottish Terrier", "min_weight_kg": 8.0, "max_weight_kg": 10.0 },
-    { "id": "d67", "name": "Shetland Sheepdog", "min_weight_kg": 6.0, "max_weight_kg": 11.0 },
-    { "id": "d68", "name": "Shiba Inu", "min_weight_kg": 8.0, "max_weight_kg": 10.0 },
-    { "id": "d69", "name": "Shih Tzu", "min_weight_kg": 4.0, "max_weight_kg": 7.0 },
-    { "id": "d70", "name": "Siberian Husky", "min_weight_kg": 16.0, "max_weight_kg": 27.0 },
-    { "id": "d71", "name": "Staffordshire Bull Terrier", "min_weight_kg": 11.0, "max_weight_kg": 17.0 },
-    { "id": "d72", "name": "Vizsla", "min_weight_kg": 20.0, "max_weight_kg": 27.0 },
-    { "id": "d73", "name": "Weimaraner", "min_weight_kg": 25.0, "max_weight_kg": 39.0 },
-    { "id": "d74", "name": "Whippet", "min_weight_kg": 11.0, "max_weight_kg": 18.0 },
-    { "id": "d75", "name": "Yorkshire Terrier", "min_weight_kg": 2.0, "max_weight_kg": 3.2 }
+    {
+      "id": "d1",
+      "name": "Affenpinscher",
+      "min_weight_kg": 3,
+      "max_weight_kg": 4.5
+    },
+    {
+      "id": "d2",
+      "name": "Afghan Hound",
+      "min_weight_kg": 23,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d3",
+      "name": "Airedale Terrier",
+      "min_weight_kg": 23,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d4",
+      "name": "Akita",
+      "min_weight_kg": 32,
+      "max_weight_kg": 59
+    },
+    {
+      "id": "d5",
+      "name": "Alaskan Klee Kai",
+      "min_weight_kg": 4.5,
+      "max_weight_kg": 10
+    },
+    {
+      "id": "d6",
+      "name": "Alaskan Malamute",
+      "min_weight_kg": 34,
+      "max_weight_kg": 39
+    },
+    {
+      "id": "d7",
+      "name": "American Bulldog",
+      "min_weight_kg": 27,
+      "max_weight_kg": 45
+    },
+    {
+      "id": "d8",
+      "name": "American English Coonhound",
+      "min_weight_kg": 20,
+      "max_weight_kg": 29
+    },
+    {
+      "id": "d9",
+      "name": "American Eskimo Dog (Miniature)",
+      "min_weight_kg": 4.5,
+      "max_weight_kg": 9
+    },
+    {
+      "id": "d10",
+      "name": "American Eskimo Dog (Standard)",
+      "min_weight_kg": 11,
+      "max_weight_kg": 16
+    },
+    {
+      "id": "d11",
+      "name": "American Eskimo Dog (Toy)",
+      "min_weight_kg": 2.7,
+      "max_weight_kg": 4.5
+    },
+    {
+      "id": "d12",
+      "name": "American Foxhound",
+      "min_weight_kg": 25,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d13",
+      "name": "American Hairless Terrier",
+      "min_weight_kg": 5.5,
+      "max_weight_kg": 7
+    },
+    {
+      "id": "d14",
+      "name": "American Pit Bull Terrier",
+      "min_weight_kg": 14,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d15",
+      "name": "American Staffordshire Terrier",
+      "min_weight_kg": 18,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d16",
+      "name": "American Water Spaniel",
+      "min_weight_kg": 11,
+      "max_weight_kg": 20
+    },
+    {
+      "id": "d17",
+      "name": "Anatolian Shepherd Dog",
+      "min_weight_kg": 40,
+      "max_weight_kg": 68
+    },
+    {
+      "id": "d18",
+      "name": "Appenzeller Sennenhund",
+      "min_weight_kg": 22,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d19",
+      "name": "Australian Cattle Dog",
+      "min_weight_kg": 15,
+      "max_weight_kg": 22
+    },
+    {
+      "id": "d20",
+      "name": "Australian Kelpie",
+      "min_weight_kg": 14,
+      "max_weight_kg": 20
+    },
+    {
+      "id": "d21",
+      "name": "Australian Shepherd",
+      "min_weight_kg": 18,
+      "max_weight_kg": 29
+    },
+    {
+      "id": "d22",
+      "name": "Australian Terrier",
+      "min_weight_kg": 5.5,
+      "max_weight_kg": 7
+    },
+    {
+      "id": "d23",
+      "name": "Azawakh",
+      "min_weight_kg": 15,
+      "max_weight_kg": 25
+    },
+    {
+      "id": "d24",
+      "name": "Barbet",
+      "min_weight_kg": 15,
+      "max_weight_kg": 28
+    },
+    {
+      "id": "d25",
+      "name": "Basenji",
+      "min_weight_kg": 9.5,
+      "max_weight_kg": 11
+    },
+    {
+      "id": "d26",
+      "name": "Basset Hound",
+      "min_weight_kg": 18,
+      "max_weight_kg": 29
+    },
+    {
+      "id": "d27",
+      "name": "Beagle",
+      "min_weight_kg": 9,
+      "max_weight_kg": 14
+    },
+    {
+      "id": "d28",
+      "name": "Bearded Collie",
+      "min_weight_kg": 18,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d29",
+      "name": "Beauceron",
+      "min_weight_kg": 30,
+      "max_weight_kg": 45
+    },
+    {
+      "id": "d30",
+      "name": "Bedlington Terrier",
+      "min_weight_kg": 7.7,
+      "max_weight_kg": 10
+    },
+    {
+      "id": "d31",
+      "name": "Belgian Laekenois",
+      "min_weight_kg": 20,
+      "max_weight_kg": 30
+    },
+    {
+      "id": "d32",
+      "name": "Belgian Malinois",
+      "min_weight_kg": 18,
+      "max_weight_kg": 36
+    },
+    {
+      "id": "d33",
+      "name": "Belgian Sheepdog",
+      "min_weight_kg": 20,
+      "max_weight_kg": 30
+    },
+    {
+      "id": "d34",
+      "name": "Belgian Tervuren",
+      "min_weight_kg": 20,
+      "max_weight_kg": 30
+    },
+    {
+      "id": "d35",
+      "name": "Bergamasco Sheepdog",
+      "min_weight_kg": 26,
+      "max_weight_kg": 38
+    },
+    {
+      "id": "d36",
+      "name": "Berger Picard",
+      "min_weight_kg": 23,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d37",
+      "name": "Bernese Mountain Dog",
+      "min_weight_kg": 32,
+      "max_weight_kg": 52
+    },
+    {
+      "id": "d38",
+      "name": "Bichon Frise",
+      "min_weight_kg": 5,
+      "max_weight_kg": 8
+    },
+    {
+      "id": "d39",
+      "name": "Biewer Terrier",
+      "min_weight_kg": 1.8,
+      "max_weight_kg": 3.6
+    },
+    {
+      "id": "d40",
+      "name": "Black and Tan Coonhound",
+      "min_weight_kg": 29,
+      "max_weight_kg": 45
+    },
+    {
+      "id": "d41",
+      "name": "Black Russian Terrier",
+      "min_weight_kg": 36,
+      "max_weight_kg": 68
+    },
+    {
+      "id": "d42",
+      "name": "Bloodhound",
+      "min_weight_kg": 36,
+      "max_weight_kg": 50
+    },
+    {
+      "id": "d43",
+      "name": "Bluetick Coonhound",
+      "min_weight_kg": 20,
+      "max_weight_kg": 36
+    },
+    {
+      "id": "d44",
+      "name": "Boerboel",
+      "min_weight_kg": 50,
+      "max_weight_kg": 90
+    },
+    {
+      "id": "d45",
+      "name": "Bolognese",
+      "min_weight_kg": 2.5,
+      "max_weight_kg": 4
+    },
+    {
+      "id": "d46",
+      "name": "Border Collie",
+      "min_weight_kg": 14,
+      "max_weight_kg": 20
+    },
+    {
+      "id": "d47",
+      "name": "Border Terrier",
+      "min_weight_kg": 5,
+      "max_weight_kg": 7
+    },
+    {
+      "id": "d48",
+      "name": "Boston Terrier",
+      "min_weight_kg": 5,
+      "max_weight_kg": 11
+    },
+    {
+      "id": "d49",
+      "name": "Bouvier des Flandres",
+      "min_weight_kg": 27,
+      "max_weight_kg": 40
+    },
+    {
+      "id": "d50",
+      "name": "Boxer",
+      "min_weight_kg": 25,
+      "max_weight_kg": 36
+    },
+    {
+      "id": "d51",
+      "name": "Boykin Spaniel",
+      "min_weight_kg": 11,
+      "max_weight_kg": 18
+    },
+    {
+      "id": "d52",
+      "name": "Bracco Italiano",
+      "min_weight_kg": 25,
+      "max_weight_kg": 40
+    },
+    {
+      "id": "d53",
+      "name": "Briard",
+      "min_weight_kg": 25,
+      "max_weight_kg": 45
+    },
+    {
+      "id": "d54",
+      "name": "Brittany",
+      "min_weight_kg": 14,
+      "max_weight_kg": 18
+    },
+    {
+      "id": "d55",
+      "name": "Broholmer",
+      "min_weight_kg": 40,
+      "max_weight_kg": 70
+    },
+    {
+      "id": "d56",
+      "name": "Brussels Griffon",
+      "min_weight_kg": 3.5,
+      "max_weight_kg": 5.5
+    },
+    {
+      "id": "d57",
+      "name": "Bull Terrier",
+      "min_weight_kg": 22,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d58",
+      "name": "Bulldog",
+      "min_weight_kg": 18,
+      "max_weight_kg": 23
+    },
+    {
+      "id": "d59",
+      "name": "Bullmastiff",
+      "min_weight_kg": 45,
+      "max_weight_kg": 59
+    },
+    {
+      "id": "d60",
+      "name": "Cairn Terrier",
+      "min_weight_kg": 6,
+      "max_weight_kg": 8
+    },
+    {
+      "id": "d61",
+      "name": "Canaan Dog",
+      "min_weight_kg": 18,
+      "max_weight_kg": 25
+    },
+    {
+      "id": "d62",
+      "name": "Cane Corso",
+      "min_weight_kg": 40,
+      "max_weight_kg": 50
+    },
+    {
+      "id": "d63",
+      "name": "Cardigan Welsh Corgi",
+      "min_weight_kg": 11,
+      "max_weight_kg": 17
+    },
+    {
+      "id": "d64",
+      "name": "Catahoula Leopard Dog",
+      "min_weight_kg": 23,
+      "max_weight_kg": 43
+    },
+    {
+      "id": "d65",
+      "name": "Cavalier King Charles Spaniel",
+      "min_weight_kg": 6,
+      "max_weight_kg": 8
+    },
+    {
+      "id": "d66",
+      "name": "Central Asian Shepherd Dog",
+      "min_weight_kg": 40,
+      "max_weight_kg": 65
+    },
+    {
+      "id": "d67",
+      "name": "Cesky Terrier",
+      "min_weight_kg": 6,
+      "max_weight_kg": 10
+    },
+    {
+      "id": "d68",
+      "name": "Chesapeake Bay Retriever",
+      "min_weight_kg": 25,
+      "max_weight_kg": 36
+    },
+    {
+      "id": "d69",
+      "name": "Chihuahua",
+      "min_weight_kg": 1.5,
+      "max_weight_kg": 3
+    },
+    {
+      "id": "d70",
+      "name": "Chinese Crested",
+      "min_weight_kg": 2,
+      "max_weight_kg": 5.5
+    },
+    {
+      "id": "d71",
+      "name": "Chinese Shar-Pei",
+      "min_weight_kg": 18,
+      "max_weight_kg": 25
+    },
+    {
+      "id": "d72",
+      "name": "Chinook",
+      "min_weight_kg": 25,
+      "max_weight_kg": 41
+    },
+    {
+      "id": "d73",
+      "name": "Chow Chow",
+      "min_weight_kg": 20,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d74",
+      "name": "Cirneco dell'Etna",
+      "min_weight_kg": 8,
+      "max_weight_kg": 12
+    },
+    {
+      "id": "d75",
+      "name": "Clumber Spaniel",
+      "min_weight_kg": 25,
+      "max_weight_kg": 39
+    },
+    {
+      "id": "d76",
+      "name": "Cocker Spaniel",
+      "min_weight_kg": 11,
+      "max_weight_kg": 14
+    },
+    {
+      "id": "d77",
+      "name": "Collie",
+      "min_weight_kg": 23,
+      "max_weight_kg": 34
+    },
+    {
+      "id": "d78",
+      "name": "Coton de Tulear",
+      "min_weight_kg": 3.5,
+      "max_weight_kg": 6
+    },
+    {
+      "id": "d79",
+      "name": "Curly-Coated Retriever",
+      "min_weight_kg": 27,
+      "max_weight_kg": 43
+    },
+    {
+      "id": "d80",
+      "name": "Czechoslovakian Vlcak",
+      "min_weight_kg": 20,
+      "max_weight_kg": 26
+    },
+    {
+      "id": "d81",
+      "name": "Dachshund (Miniature)",
+      "min_weight_kg": 3.5,
+      "max_weight_kg": 5
+    },
+    {
+      "id": "d82",
+      "name": "Dachshund (Standard)",
+      "min_weight_kg": 7,
+      "max_weight_kg": 14
+    },
+    {
+      "id": "d83",
+      "name": "Dalmatian",
+      "min_weight_kg": 20,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d84",
+      "name": "Dandie Dinmont Terrier",
+      "min_weight_kg": 8,
+      "max_weight_kg": 11
+    },
+    {
+      "id": "d85",
+      "name": "Doberman Pinscher",
+      "min_weight_kg": 27,
+      "max_weight_kg": 45
+    },
+    {
+      "id": "d86",
+      "name": "Dogo Argentino",
+      "min_weight_kg": 36,
+      "max_weight_kg": 45
+    },
+    {
+      "id": "d87",
+      "name": "Dogue de Bordeaux",
+      "min_weight_kg": 45,
+      "max_weight_kg": 68
+    },
+    {
+      "id": "d88",
+      "name": "Dutch Shepherd",
+      "min_weight_kg": 20,
+      "max_weight_kg": 30
+    },
+    {
+      "id": "d89",
+      "name": "English Cocker Spaniel",
+      "min_weight_kg": 12,
+      "max_weight_kg": 15
+    },
+    {
+      "id": "d90",
+      "name": "English Foxhound",
+      "min_weight_kg": 25,
+      "max_weight_kg": 34
+    },
+    {
+      "id": "d91",
+      "name": "English Mastiff",
+      "min_weight_kg": 54,
+      "max_weight_kg": 100
+    },
+    {
+      "id": "d92",
+      "name": "English Setter",
+      "min_weight_kg": 20,
+      "max_weight_kg": 36
+    },
+    {
+      "id": "d93",
+      "name": "English Springer Spaniel",
+      "min_weight_kg": 18,
+      "max_weight_kg": 23
+    },
+    {
+      "id": "d94",
+      "name": "English Toy Spaniel",
+      "min_weight_kg": 3.5,
+      "max_weight_kg": 6.5
+    },
+    {
+      "id": "d95",
+      "name": "Entlebucher Mountain Dog",
+      "min_weight_kg": 20,
+      "max_weight_kg": 30
+    },
+    {
+      "id": "d96",
+      "name": "Estrela Mountain Dog",
+      "min_weight_kg": 30,
+      "max_weight_kg": 50
+    },
+    {
+      "id": "d97",
+      "name": "Eurasier",
+      "min_weight_kg": 18,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d98",
+      "name": "Field Spaniel",
+      "min_weight_kg": 16,
+      "max_weight_kg": 23
+    },
+    {
+      "id": "d99",
+      "name": "Finnish Lapphund",
+      "min_weight_kg": 15,
+      "max_weight_kg": 24
+    },
+    {
+      "id": "d100",
+      "name": "Finnish Spitz",
+      "min_weight_kg": 7,
+      "max_weight_kg": 13
+    },
+    {
+      "id": "d101",
+      "name": "Flat-Coated Retriever",
+      "min_weight_kg": 25,
+      "max_weight_kg": 36
+    },
+    {
+      "id": "d102",
+      "name": "Fox Terrier (Smooth)",
+      "min_weight_kg": 6,
+      "max_weight_kg": 8
+    },
+    {
+      "id": "d103",
+      "name": "Fox Terrier (Wire)",
+      "min_weight_kg": 6.8,
+      "max_weight_kg": 8.6
+    },
+    {
+      "id": "d104",
+      "name": "French Bulldog",
+      "min_weight_kg": 8,
+      "max_weight_kg": 13
+    },
+    {
+      "id": "d105",
+      "name": "German Longhaired Pointer",
+      "min_weight_kg": 27,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d106",
+      "name": "German Pinscher",
+      "min_weight_kg": 11,
+      "max_weight_kg": 20
+    },
+    {
+      "id": "d107",
+      "name": "German Shepherd",
+      "min_weight_kg": 22,
+      "max_weight_kg": 40
+    },
+    {
+      "id": "d108",
+      "name": "German Shorthaired Pointer",
+      "min_weight_kg": 20,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d109",
+      "name": "German Wirehaired Pointer",
+      "min_weight_kg": 27,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d110",
+      "name": "Giant Schnauzer",
+      "min_weight_kg": 27,
+      "max_weight_kg": 43
+    },
+    {
+      "id": "d111",
+      "name": "Glen of Imaal Terrier",
+      "min_weight_kg": 14,
+      "max_weight_kg": 18
+    },
+    {
+      "id": "d112",
+      "name": "Golden Retriever",
+      "min_weight_kg": 25,
+      "max_weight_kg": 34
+    },
+    {
+      "id": "d113",
+      "name": "Gordon Setter",
+      "min_weight_kg": 20,
+      "max_weight_kg": 36
+    },
+    {
+      "id": "d114",
+      "name": "Grand Basset Griffon Vendeen",
+      "min_weight_kg": 18,
+      "max_weight_kg": 20
+    },
+    {
+      "id": "d115",
+      "name": "Great Dane",
+      "min_weight_kg": 50,
+      "max_weight_kg": 80
+    },
+    {
+      "id": "d116",
+      "name": "Great Pyrenees",
+      "min_weight_kg": 39,
+      "max_weight_kg": 52
+    },
+    {
+      "id": "d117",
+      "name": "Greyhound",
+      "min_weight_kg": 27,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d118",
+      "name": "Hamiltonstovare",
+      "min_weight_kg": 23,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d119",
+      "name": "Harrier",
+      "min_weight_kg": 20,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d120",
+      "name": "Havanese",
+      "min_weight_kg": 3,
+      "max_weight_kg": 6
+    },
+    {
+      "id": "d121",
+      "name": "Hovawart",
+      "min_weight_kg": 25,
+      "max_weight_kg": 40
+    },
+    {
+      "id": "d122",
+      "name": "Ibizan Hound",
+      "min_weight_kg": 20,
+      "max_weight_kg": 29
+    },
+    {
+      "id": "d123",
+      "name": "Icelandic Sheepdog",
+      "min_weight_kg": 9,
+      "max_weight_kg": 14
+    },
+    {
+      "id": "d124",
+      "name": "Irish Red and White Setter",
+      "min_weight_kg": 25,
+      "max_weight_kg": 34
+    },
+    {
+      "id": "d125",
+      "name": "Irish Setter",
+      "min_weight_kg": 27,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d126",
+      "name": "Irish Terrier",
+      "min_weight_kg": 11,
+      "max_weight_kg": 12
+    },
+    {
+      "id": "d127",
+      "name": "Irish Water Spaniel",
+      "min_weight_kg": 20,
+      "max_weight_kg": 30
+    },
+    {
+      "id": "d128",
+      "name": "Irish Wolfhound",
+      "min_weight_kg": 48,
+      "max_weight_kg": 54
+    },
+    {
+      "id": "d129",
+      "name": "Italian Greyhound",
+      "min_weight_kg": 3.5,
+      "max_weight_kg": 5
+    },
+    {
+      "id": "d130",
+      "name": "Jack Russell Terrier",
+      "min_weight_kg": 6,
+      "max_weight_kg": 8
+    },
+    {
+      "id": "d131",
+      "name": "Japanese Chin",
+      "min_weight_kg": 1.4,
+      "max_weight_kg": 5
+    },
+    {
+      "id": "d132",
+      "name": "Japanese Spitz",
+      "min_weight_kg": 5,
+      "max_weight_kg": 10
+    },
+    {
+      "id": "d133",
+      "name": "Kai Ken",
+      "min_weight_kg": 9,
+      "max_weight_kg": 18
+    },
+    {
+      "id": "d134",
+      "name": "Kangal",
+      "min_weight_kg": 41,
+      "max_weight_kg": 66
+    },
+    {
+      "id": "d135",
+      "name": "Karelian Bear Dog",
+      "min_weight_kg": 20,
+      "max_weight_kg": 23
+    },
+    {
+      "id": "d136",
+      "name": "Keeshond",
+      "min_weight_kg": 16,
+      "max_weight_kg": 20
+    },
+    {
+      "id": "d137",
+      "name": "Kerry Blue Terrier",
+      "min_weight_kg": 15,
+      "max_weight_kg": 18
+    },
+    {
+      "id": "d138",
+      "name": "Kishu Ken",
+      "min_weight_kg": 14,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d139",
+      "name": "Komondor",
+      "min_weight_kg": 36,
+      "max_weight_kg": 60
+    },
+    {
+      "id": "d140",
+      "name": "Kooikerhondje",
+      "min_weight_kg": 9,
+      "max_weight_kg": 11
+    },
+    {
+      "id": "d141",
+      "name": "Korean Jindo",
+      "min_weight_kg": 15,
+      "max_weight_kg": 23
+    },
+    {
+      "id": "d142",
+      "name": "Kuvasz",
+      "min_weight_kg": 32,
+      "max_weight_kg": 52
+    },
+    {
+      "id": "d143",
+      "name": "Labrador Retriever",
+      "min_weight_kg": 25,
+      "max_weight_kg": 36
+    },
+    {
+      "id": "d144",
+      "name": "Lagotto Romagnolo",
+      "min_weight_kg": 11,
+      "max_weight_kg": 16
+    },
+    {
+      "id": "d145",
+      "name": "Lakeland Terrier",
+      "min_weight_kg": 7,
+      "max_weight_kg": 8
+    },
+    {
+      "id": "d146",
+      "name": "Lancashire Heeler",
+      "min_weight_kg": 3,
+      "max_weight_kg": 6
+    },
+    {
+      "id": "d147",
+      "name": "Large Munsterlander",
+      "min_weight_kg": 23,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d148",
+      "name": "Leonberger",
+      "min_weight_kg": 41,
+      "max_weight_kg": 77
+    },
+    {
+      "id": "d149",
+      "name": "Lhasa Apso",
+      "min_weight_kg": 5,
+      "max_weight_kg": 8
+    },
+    {
+      "id": "d150",
+      "name": "Lowchen",
+      "min_weight_kg": 4,
+      "max_weight_kg": 8
+    },
+    {
+      "id": "d151",
+      "name": "Maltese",
+      "min_weight_kg": 3,
+      "max_weight_kg": 4
+    },
+    {
+      "id": "d152",
+      "name": "Manchester Terrier (Standard)",
+      "min_weight_kg": 5.5,
+      "max_weight_kg": 10
+    },
+    {
+      "id": "d153",
+      "name": "Manchester Terrier (Toy)",
+      "min_weight_kg": 2.7,
+      "max_weight_kg": 3.6
+    },
+    {
+      "id": "d154",
+      "name": "Miniature American Shepherd",
+      "min_weight_kg": 9,
+      "max_weight_kg": 18
+    },
+    {
+      "id": "d155",
+      "name": "Miniature Bull Terrier",
+      "min_weight_kg": 11,
+      "max_weight_kg": 15
+    },
+    {
+      "id": "d156",
+      "name": "Miniature Pinscher",
+      "min_weight_kg": 3.5,
+      "max_weight_kg": 5
+    },
+    {
+      "id": "d157",
+      "name": "Miniature Schnauzer",
+      "min_weight_kg": 5,
+      "max_weight_kg": 9
+    },
+    {
+      "id": "d158",
+      "name": "Mudi",
+      "min_weight_kg": 8,
+      "max_weight_kg": 13
+    },
+    {
+      "id": "d159",
+      "name": "Neapolitan Mastiff",
+      "min_weight_kg": 50,
+      "max_weight_kg": 70
+    },
+    {
+      "id": "d160",
+      "name": "Newfoundland",
+      "min_weight_kg": 45,
+      "max_weight_kg": 68
+    },
+    {
+      "id": "d161",
+      "name": "Norfolk Terrier",
+      "min_weight_kg": 5,
+      "max_weight_kg": 5.5
+    },
+    {
+      "id": "d162",
+      "name": "Norwegian Buhund",
+      "min_weight_kg": 12,
+      "max_weight_kg": 18
+    },
+    {
+      "id": "d163",
+      "name": "Norwegian Elkhound",
+      "min_weight_kg": 20,
+      "max_weight_kg": 23
+    },
+    {
+      "id": "d164",
+      "name": "Norwegian Lundehund",
+      "min_weight_kg": 6,
+      "max_weight_kg": 7
+    },
+    {
+      "id": "d165",
+      "name": "Norwich Terrier",
+      "min_weight_kg": 5,
+      "max_weight_kg": 5.5
+    },
+    {
+      "id": "d166",
+      "name": "Nova Scotia Duck Tolling Retriever",
+      "min_weight_kg": 17,
+      "max_weight_kg": 23
+    },
+    {
+      "id": "d167",
+      "name": "Old English Sheepdog",
+      "min_weight_kg": 27,
+      "max_weight_kg": 45
+    },
+    {
+      "id": "d168",
+      "name": "Otterhound",
+      "min_weight_kg": 36,
+      "max_weight_kg": 52
+    },
+    {
+      "id": "d169",
+      "name": "Papillon",
+      "min_weight_kg": 2,
+      "max_weight_kg": 4.5
+    },
+    {
+      "id": "d170",
+      "name": "Parson Russell Terrier",
+      "min_weight_kg": 6,
+      "max_weight_kg": 8
+    },
+    {
+      "id": "d171",
+      "name": "Pekingese",
+      "min_weight_kg": 3,
+      "max_weight_kg": 6
+    },
+    {
+      "id": "d172",
+      "name": "Pembroke Welsh Corgi",
+      "min_weight_kg": 11,
+      "max_weight_kg": 14
+    },
+    {
+      "id": "d173",
+      "name": "Petit Basset Griffon Vendeen",
+      "min_weight_kg": 11,
+      "max_weight_kg": 18
+    },
+    {
+      "id": "d174",
+      "name": "Pharaoh Hound",
+      "min_weight_kg": 18,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d175",
+      "name": "Plott Hound",
+      "min_weight_kg": 18,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d176",
+      "name": "Pointer",
+      "min_weight_kg": 20,
+      "max_weight_kg": 34
+    },
+    {
+      "id": "d177",
+      "name": "Polish Lowland Sheepdog",
+      "min_weight_kg": 14,
+      "max_weight_kg": 23
+    },
+    {
+      "id": "d178",
+      "name": "Pomeranian",
+      "min_weight_kg": 1.5,
+      "max_weight_kg": 3
+    },
+    {
+      "id": "d179",
+      "name": "Poodle (Miniature)",
+      "min_weight_kg": 5,
+      "max_weight_kg": 7
+    },
+    {
+      "id": "d180",
+      "name": "Poodle (Standard)",
+      "min_weight_kg": 20,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d181",
+      "name": "Poodle (Toy)",
+      "min_weight_kg": 2,
+      "max_weight_kg": 4
+    },
+    {
+      "id": "d182",
+      "name": "Portuguese Podengo (Grande)",
+      "min_weight_kg": 20,
+      "max_weight_kg": 30
+    },
+    {
+      "id": "d183",
+      "name": "Portuguese Podengo (Medio)",
+      "min_weight_kg": 16,
+      "max_weight_kg": 20
+    },
+    {
+      "id": "d184",
+      "name": "Portuguese Podengo (Pequeno)",
+      "min_weight_kg": 4,
+      "max_weight_kg": 6
+    },
+    {
+      "id": "d185",
+      "name": "Portuguese Water Dog",
+      "min_weight_kg": 16,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d186",
+      "name": "Presa Canario",
+      "min_weight_kg": 38,
+      "max_weight_kg": 59
+    },
+    {
+      "id": "d187",
+      "name": "Pug",
+      "min_weight_kg": 6,
+      "max_weight_kg": 8
+    },
+    {
+      "id": "d188",
+      "name": "Puli",
+      "min_weight_kg": 10,
+      "max_weight_kg": 15
+    },
+    {
+      "id": "d189",
+      "name": "Pumi",
+      "min_weight_kg": 8,
+      "max_weight_kg": 15
+    },
+    {
+      "id": "d190",
+      "name": "Pyrenean Mastiff",
+      "min_weight_kg": 55,
+      "max_weight_kg": 100
+    },
+    {
+      "id": "d191",
+      "name": "Pyrenean Shepherd",
+      "min_weight_kg": 7,
+      "max_weight_kg": 14
+    },
+    {
+      "id": "d192",
+      "name": "Rat Terrier",
+      "min_weight_kg": 4.5,
+      "max_weight_kg": 11
+    },
+    {
+      "id": "d193",
+      "name": "Redbone Coonhound",
+      "min_weight_kg": 20,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d194",
+      "name": "Rhodesian Ridgeback",
+      "min_weight_kg": 32,
+      "max_weight_kg": 39
+    },
+    {
+      "id": "d195",
+      "name": "Rottweiler",
+      "min_weight_kg": 36,
+      "max_weight_kg": 61
+    },
+    {
+      "id": "d196",
+      "name": "Russkiy Toy",
+      "min_weight_kg": 1,
+      "max_weight_kg": 3
+    },
+    {
+      "id": "d197",
+      "name": "Saint Bernard",
+      "min_weight_kg": 54,
+      "max_weight_kg": 82
+    },
+    {
+      "id": "d198",
+      "name": "Saluki",
+      "min_weight_kg": 18,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d199",
+      "name": "Samoyed",
+      "min_weight_kg": 16,
+      "max_weight_kg": 30
+    },
+    {
+      "id": "d200",
+      "name": "Schipperke",
+      "min_weight_kg": 3,
+      "max_weight_kg": 9
+    },
+    {
+      "id": "d201",
+      "name": "Scottish Deerhound",
+      "min_weight_kg": 34,
+      "max_weight_kg": 50
+    },
+    {
+      "id": "d202",
+      "name": "Scottish Terrier",
+      "min_weight_kg": 8,
+      "max_weight_kg": 10
+    },
+    {
+      "id": "d203",
+      "name": "Sealyham Terrier",
+      "min_weight_kg": 10,
+      "max_weight_kg": 11
+    },
+    {
+      "id": "d204",
+      "name": "Shetland Sheepdog",
+      "min_weight_kg": 6,
+      "max_weight_kg": 11
+    },
+    {
+      "id": "d205",
+      "name": "Shiba Inu",
+      "min_weight_kg": 8,
+      "max_weight_kg": 10
+    },
+    {
+      "id": "d206",
+      "name": "Shih Tzu",
+      "min_weight_kg": 4,
+      "max_weight_kg": 7
+    },
+    {
+      "id": "d207",
+      "name": "Shikoku",
+      "min_weight_kg": 16,
+      "max_weight_kg": 25
+    },
+    {
+      "id": "d208",
+      "name": "Siberian Husky",
+      "min_weight_kg": 16,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d209",
+      "name": "Silky Terrier",
+      "min_weight_kg": 4,
+      "max_weight_kg": 5
+    },
+    {
+      "id": "d210",
+      "name": "Skye Terrier",
+      "min_weight_kg": 11,
+      "max_weight_kg": 18
+    },
+    {
+      "id": "d211",
+      "name": "Sloughi",
+      "min_weight_kg": 20,
+      "max_weight_kg": 28
+    },
+    {
+      "id": "d212",
+      "name": "Small Munsterlander",
+      "min_weight_kg": 18,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d213",
+      "name": "Soft Coated Wheaten Terrier",
+      "min_weight_kg": 14,
+      "max_weight_kg": 20
+    },
+    {
+      "id": "d214",
+      "name": "Spanish Mastiff",
+      "min_weight_kg": 52,
+      "max_weight_kg": 100
+    },
+    {
+      "id": "d215",
+      "name": "Spanish Water Dog",
+      "min_weight_kg": 14,
+      "max_weight_kg": 22
+    },
+    {
+      "id": "d216",
+      "name": "Spinone Italiano",
+      "min_weight_kg": 29,
+      "max_weight_kg": 39
+    },
+    {
+      "id": "d217",
+      "name": "Staffordshire Bull Terrier",
+      "min_weight_kg": 11,
+      "max_weight_kg": 17
+    },
+    {
+      "id": "d218",
+      "name": "Standard Schnauzer",
+      "min_weight_kg": 14,
+      "max_weight_kg": 26
+    },
+    {
+      "id": "d219",
+      "name": "Sussex Spaniel",
+      "min_weight_kg": 16,
+      "max_weight_kg": 20
+    },
+    {
+      "id": "d220",
+      "name": "Swedish Vallhund",
+      "min_weight_kg": 9,
+      "max_weight_kg": 14
+    },
+    {
+      "id": "d221",
+      "name": "Thai Ridgeback",
+      "min_weight_kg": 23,
+      "max_weight_kg": 34
+    },
+    {
+      "id": "d222",
+      "name": "Tibetan Mastiff",
+      "min_weight_kg": 34,
+      "max_weight_kg": 73
+    },
+    {
+      "id": "d223",
+      "name": "Tibetan Spaniel",
+      "min_weight_kg": 4,
+      "max_weight_kg": 7
+    },
+    {
+      "id": "d224",
+      "name": "Tibetan Terrier",
+      "min_weight_kg": 8,
+      "max_weight_kg": 14
+    },
+    {
+      "id": "d225",
+      "name": "Tosa Inu",
+      "min_weight_kg": 36,
+      "max_weight_kg": 61
+    },
+    {
+      "id": "d226",
+      "name": "Toy Fox Terrier",
+      "min_weight_kg": 1.5,
+      "max_weight_kg": 3.5
+    },
+    {
+      "id": "d227",
+      "name": "Treeing Walker Coonhound",
+      "min_weight_kg": 20,
+      "max_weight_kg": 32
+    },
+    {
+      "id": "d228",
+      "name": "Vizsla",
+      "min_weight_kg": 20,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d229",
+      "name": "Weimaraner",
+      "min_weight_kg": 25,
+      "max_weight_kg": 39
+    },
+    {
+      "id": "d230",
+      "name": "Welsh Springer Spaniel",
+      "min_weight_kg": 16,
+      "max_weight_kg": 20
+    },
+    {
+      "id": "d231",
+      "name": "Welsh Terrier",
+      "min_weight_kg": 9,
+      "max_weight_kg": 10
+    },
+    {
+      "id": "d232",
+      "name": "West Highland White Terrier",
+      "min_weight_kg": 6.5,
+      "max_weight_kg": 10
+    },
+    {
+      "id": "d233",
+      "name": "Whippet",
+      "min_weight_kg": 11,
+      "max_weight_kg": 18
+    },
+    {
+      "id": "d234",
+      "name": "Wirehaired Pointing Griffon",
+      "min_weight_kg": 23,
+      "max_weight_kg": 27
+    },
+    {
+      "id": "d235",
+      "name": "Wirehaired Vizsla",
+      "min_weight_kg": 20,
+      "max_weight_kg": 30
+    },
+    {
+      "id": "d236",
+      "name": "Xoloitzcuintli (Miniature)",
+      "min_weight_kg": 7,
+      "max_weight_kg": 14
+    },
+    {
+      "id": "d237",
+      "name": "Xoloitzcuintli (Standard)",
+      "min_weight_kg": 14,
+      "max_weight_kg": 25
+    },
+    {
+      "id": "d238",
+      "name": "Xoloitzcuintli (Toy)",
+      "min_weight_kg": 2,
+      "max_weight_kg": 7
+    },
+    {
+      "id": "d239",
+      "name": "Yorkshire Terrier",
+      "min_weight_kg": 2,
+      "max_weight_kg": 3.2
+    }
   ]
 }
